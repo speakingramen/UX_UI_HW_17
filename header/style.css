@@ -1,0 +1,53 @@
+.main_nav{
+    display: flex;
+    background-color: white;
+}
+
+.logo{
+    padding-left: 78px;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+}
+
+.left p{
+    width: 367px;
+    height: 48px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #85b039;
+    padding-left: 30px;
+}
+
+.right{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.right a{
+    width: 111px;
+    height: 24px;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: normal;
+    color: #2d2d2d;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-right: 20px;
+}
+
+.lang{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 78px;
+}
